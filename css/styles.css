@@ -613,7 +613,7 @@ img {
   width: 100%;
   overflow: auto;
 
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms linear;
 }
 
