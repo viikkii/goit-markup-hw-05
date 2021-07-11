@@ -27,17 +27,23 @@
           >
           <ul class="site-nav link-ul section-item">
             <li class="section-nav">
-              <a class="site-nav current link-a-href" href="./index.html"
+              <a
+                class="site-nav current link-a-href section-after"
+                href="./index.html"
                 >Студия</a
               >
             </li>
             <li class="section-nav">
-              <a class="site-nav link-a-href" href="./portfolio.html"
+              <a
+                class="site-nav link-a-href section-after"
+                href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
             <li class="section-nav">
-              <a class="site-nav link-a-href" href="#">Контакты</a>
+              <a class="site-nav link-a-href section-after" href="#"
+                >Контакты</a
+              >
             </li>
           </ul>
         </nav>
@@ -145,28 +151,37 @@
           <h2 class="section-title wort-item">Чем мы занимаемся</h2>
           <ul class="link-ul section-item section-ul-photo">
             <li class="section-photo">
-              <img
-                src="./images/gallery/img1.jpg"
-                alt="Клавиатура"
-                width="370"
-                height="294"
-              />
+              <div class="photo-position">
+                <img
+                  src="./images/gallery/img1.jpg"
+                  alt="Клавиатура"
+                  width="370"
+                  height="294"
+                />
+                <p class="overlay-photo">Десктопные Приложения</p>
+              </div>
             </li>
             <li class="section-photo">
-              <img
-                src="./images/gallery/img2.jpg"
-                alt="Смартфон"
-                width="370"
-                height="294"
-              />
+              <div class="photo-position">
+                <img
+                  src="./images/gallery/img2.jpg"
+                  alt="Смартфон"
+                  width="370"
+                  height="294"
+                />
+                <p class="overlay-photo">Мобильные приложения</p>
+              </div>
             </li>
             <li class="section-photo">
-              <img
-                src="./images/gallery/img3.jpg"
-                alt="Тачпад"
-                width="370"
-                height="294"
-              />
+              <div class="photo-position">
+                <img
+                  src="./images/gallery/img3.jpg"
+                  alt="Тачпад"
+                  width="370"
+                  height="294"
+                />
+                <p class="overlay-photo">Дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -598,8 +613,10 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" data-modal-close class="close-btn">
-          <svg class="join-icon" width="11" height="11">
-            <use href="./images/sprite/symbol-defs.svg#icon-linkedin"></use>
+          <svg class="join-icon" width="18" height="18">
+            <use
+              href="./images/sprite/symbol-defs.svg#icon-close-black-18dp-2-1"
+            ></use>
           </svg>
         </button>
       </div>
